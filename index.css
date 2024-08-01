@@ -1,0 +1,90 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #eceffc;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+form {
+    max-width: 600px;
+    margin: 35px auto;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.861) ;
+    box-shadow: 0 4px 8px whitesmoke;
+    border-radius: 20px;
+}
+
+h2 {
+    text-align: center;
+    padding: 14px;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 55px;
+    margin-right: 55px;
+    font-size: 25px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.1);
+    color: #444;
+}
+
+label {
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+button[type="submit"] {
+    background-color: rgba(60, 0, 255, 0.565);
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 150px;
+    text-align: center;
+    border:none;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: rgba(249, 10, 229, 0.616);
+}
+
+p {
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a {
+    color: rgb(0, 94, 255);
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: aqua;
+}
